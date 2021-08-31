@@ -1,0 +1,99 @@
+*{
+    margin:auto;
+}
+body{
+    background-color:#b1fab11a;
+}
+h1{
+    position: relative;
+    background-color: #e77f07;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    height:60px;
+    font-family:serif;
+    font-weight:bold;
+    font-size: 50px;
+    text-transform:uppercase;
+    margin-bottom:1%;
+}
+#hello{
+    text-align: left;
+    margin-left:20px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    color:#e77f07;
+    font-weight:bold;
+    font-family:serif;
+    border-bottom: 1px solid #e77f07;
+}
+a{
+    color: #e77f07;
+}
+#log{
+    text-align: right;
+    margin-right: 40px;
+}
+a#logout{
+    border: 2px solid #e77f07;
+    border-radius:2px;
+    font-family:serif;
+    font-weight:bold;
+    font-size: 15px;
+    text-transform:uppercase;
+    width:5%;
+    padding:5px;
+    letter-spacing: 1px;
+}
+a:hover, #logout:hover{
+    color:#ffffff;
+    background-color: #e77f07;
+    border-radius:2px;
+}
+#user_icon{
+    position: relative;
+    border-radius:3px;
+    padding:2px;
+    width:90px;
+    margin-left:30%;
+}
+.user_container{
+    padding:10px;
+    margin-left:3%;
+    color:#e77f07;
+    background-color:#dba05d10;
+    text-transform:uppercase;
+    border:2px solid #e77f07;
+    border-radius: 2px;
+    width:20%;
+}
+.user_detail{
+    margin:5px;
+}
+table{
+    margin-top:5px;
+    padding:10px;
+    margin-left:3%;
+    color:#e77f07;
+    text-transform:uppercase;
+    border:2px solid #e77f07;
+    background-color:#dba05d10;
+    border-radius: 2px;
+    width:21.8%;
+}
+button{
+    padding:10px;
+    margin-left:3%;
+    margin-right:3%;
+    text-transform:uppercase;
+    border:2px solid #e77f07;
+    border-radius: 2px;
+    width:90%;
+    color:#ffffff;
+    font-size:15px;
+    text-align:center;
+    background-color:#e77f07;
+    cursor: pointer;
+}
+button#admin_status{
+    width:95%;
+}

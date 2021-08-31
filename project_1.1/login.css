@@ -1,0 +1,92 @@
+*{
+    margin: auto;
+}
+body{
+    background-color:rgba(177, 250, 177, 0.1);
+}
+#sms_header{
+    margin: auto;
+    position: relative;
+    background-color: #e77f07;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    height:60px;
+    font-family:serif;
+    font-weight:bold;
+    font-size: 50px;
+    text-transform:uppercase;
+    margin-bottom:1%;
+}
+.login_form{
+    border:2px solid #e77f07;
+    width:38%;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+}
+.outer_container{
+    margin:auto;
+    padding: 5px;
+    width: 50%;
+}
+input{
+    margin:12px;
+    margin-left: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    outline:none;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    height: 30px;
+    width: 60%;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+select{
+    margin:12px;
+    margin-left: 20px;
+    padding-left:25px;
+    padding-right:25px;
+    outline:none;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    height: 38px;
+    width: 81%;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type="submit"]{
+    cursor:pointer;
+    height: 35px;
+    width: 81%;
+    color: #ffffff;
+    font-size: 20px;
+    text-align:center;
+    background-color:#e77f07;
+    letter-spacing: 1px;
+}
+
+.login_caption{
+    margin-left:46%;
+    margin-bottom: 10px;
+    position: relative;
+    color:#e77f07;
+    letter-spacing:3px;
+    font-size:40px;
+    font-family:serif;
+    font-weight:bold;
+    }
+#login_logo{
+    position: relative;
+    border-radius:3px;
+    padding:2px;
+    width:90px;
+    margin-left:30%;
+}
+#register_link{
+    letter-spacing:1px;
+    padding-top:10px;
+    margin-left:8%;
+}

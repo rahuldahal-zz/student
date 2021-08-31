@@ -1,0 +1,89 @@
+*{
+    margin:auto;
+}
+body{
+    background-color:rgba(177, 250, 177, 0.1);
+}
+h1{
+    position: relative;
+    background-color: #e77f07;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    height:60px;
+    font-family:serif;
+    font-weight:bold;
+    font-size: 50px;
+    text-transform:uppercase;
+    margin-bottom:1%;
+}
+.inner_container{
+    margin:20px 20px;
+    padding:5px;
+    margin-left:5%;
+}
+#fieldset{
+    color:#e77f07;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    width: 45%;
+}
+input[type="text"], input[type="password"], input[type="submit"], input[type="file"]{
+    padding:10px;
+    margin:7px;
+    margin-left: 30px;
+    outline:none;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    height: 10px;
+    width: 36%;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+input[type="file"]{
+    padding:6px;
+    padding-bottom:12px;
+    margin:7px;
+    margin-left: 30px;
+    outline:none;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    height: 15px;
+    width: 37%;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+select{
+    padding:1px;
+    margin:6px;
+    margin-left: 30px;
+    outline:none;
+    height:37px;
+    width:40%;
+    color:#e77f07;
+    letter-spacing:1px;
+    border:2px solid #e77f07;
+    border-radius:10px;
+    font-family:serif;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+#submit{
+    height:20px;
+    width:87%;
+    color:#ffffff;
+    font-size:23px;
+    text-align:center;
+    background-color:#e77f07;
+    letter-spacing:1px;
+    font-family:serif;
+    padding-bottom:30px;
+}
+input[type="radio"]{
+    margin:6px 6px;
+    margin-left: 30px;
+}
